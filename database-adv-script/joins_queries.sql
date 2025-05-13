@@ -28,7 +28,7 @@ SELECT
     reviews.created_at AS review_date,
     reviews.user_id AS reviewer_id
 FROM properties
-LEFT JOIN reviews ON properties.property_id = reviews.property_id;
+LEFT JOIN reviews ON properties.property_id = reviews.property_id ORDER BY ratings;
 
 
 
