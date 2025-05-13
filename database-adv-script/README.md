@@ -1,0 +1,1 @@
+This file contains SQL queries demonstrating various types of SQL joins using the Airbnb-like database schema for users, properties, bookings, and reviews. The queries use INNER JOIN, LEFT JOIN, and FULL OUTER JOIN to retrieve data from multiple tables, showcasing different scenarios for combining data across tables in SQL.
