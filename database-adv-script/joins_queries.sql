@@ -18,6 +18,7 @@ INNER JOIN users ON bookings.user_id = users.user_id;
 SELECT 
     properties.property_id,
     properties.name AS property_name,
+    properties.host_id,
     properties.description,
     properties.location,
     properties.pricepernight,
