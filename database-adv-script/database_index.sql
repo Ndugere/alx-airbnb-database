@@ -11,3 +11,6 @@ CREATE INDEX idx_bookings_booking_id ON bookings(booking_id);
 CREATE INDEX idx_bookings_property_id ON bookings(property_id);
 CREATE INDEX idx_bookings_user_id ON bookings(user_id);
 CREATE INDEX idx_bookings_dates ON bookings(start_date, end_date);
+
+-- Using EXPLAIN ANALYZE to verify the query performance
+EXPLAIN ANALYZE SELECT * FROM bookings WHERE user_id = 1 AND property_id = 2;
